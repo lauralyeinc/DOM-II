@@ -27,12 +27,12 @@ numbertwo.addEventListener('dblclick', function (event) {
   console.log(event.myEventHandlingData);
 });
 
-const twopointfive = document.querySelector('header');
+const threepointfive = document.querySelector('header');
 
-twopointfive.addEventListener('click', function (event) {
+threepointfive.addEventListener('click', function (event) {
   console.log('Navigation area was clicked');
   console.log(event.target);
-  twopointfive.style.background = "orange";
+  threepointfive.style.background = "orange";
   console.log(event.myEventHandlingData);
 })
 
