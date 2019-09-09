@@ -21,7 +21,7 @@ Fun Bus wants you to make their site more interactive. They are relying on you t
 
 ## Task 1: Set Up LESS Preprocessor
 
-* [ ] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
+* [x ] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
 
 * [ ] Open your terminal and navigate to your preprocessing project by using the `cd` command
 
