@@ -24,7 +24,6 @@ numbertwo.addEventListener('dblclick', function (event) {
   console.log('footer was double clicked');
   console.log(event.target);
   numbertwo.style.background = "pink";
-  console.log(event.myEventHandlingData);
 });
 
 const threepointfive = document.querySelector('header');
@@ -39,7 +38,7 @@ threepointfive.addEventListener('click', function (event) {
 
 //---------------------------
 
-// #4 resize  in the console.
+// #4 resize  (in the console)
 
 const numberfour = document.querySelector('.container');
 
@@ -51,13 +50,13 @@ window.onresize = reportContainerSize;
 
 //--------------------------
 
-// #5  keydown  in the console     
+// #5  keydown  (in the console, but has an error)     
 document.addEventListener('keydown', numberfive);
 
 //doesn't work  error 
 
-function numberfive(e) {
-  log.textContent += `${e.code}`;
+function numberfive(event) {
+  log.textContent += `${event.code}`;
 }
 
 //---------------------------
@@ -105,8 +104,10 @@ function numberfive(e) {
 
 // ------------------------------------------------------------
 
-// # 7 load 
+// # 7 load on about-us.js
 
+
+  
 // # 8 select 
 // function numbereight(event) {
 //   const log = document.getElementsByTagName('p');
@@ -116,6 +117,8 @@ function numberfive(e) {
 
 // const input = document.querySelector('input');
 // input.addEventListener('select', logSelection);
+
+
 
 
 

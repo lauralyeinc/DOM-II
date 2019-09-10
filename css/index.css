@@ -350,3 +350,17 @@ img {
   background: #FFFFFF;
   color: #17A2B8;
 }
+.event-log {
+  width: 25rem;
+  height: 4rem;
+  border: 1px solid black;
+  margin: .5rem;
+  padding: .2rem;
+}
+input {
+  width: 18rem;
+  margin: .5rem;
+}
+.controls {
+  margin: 15rem;
+}
