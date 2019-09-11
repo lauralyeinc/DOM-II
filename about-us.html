@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Fun Bus Travel Agency - Solution</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
+
+  <script src="js/about-us.js" async></script>
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+<!-- #6 -->
+  <div class="dropzone"> 
+      <div id="draggable" draggable="true" ondragstart="event.dataTransfer.setData('text/plain',null)"> 
+        Drag for your free vacation!
+      </div> 
+    </div> 
+    <div class="dropzone"> Beach </div>
+    <div class="dropzone"> Mountain Getaway </div> 
+    <div class="dropzone"> European Grand Tour </div>
+
+<!--#7  load -->      
+  <div class="controls">
+      <input class="packing success" type="button" name="packing" value="Click to start packing for your trip! (success, you didn't forget anything!)" />
+      <input class="packing error" type="button" name="packing" value="Click to start packing for your Trip! (error, you forgot your passport!)" />
+      <input class="packing abort" type="button" name="packing" value="Click to start packing for your Trip! (abort, you ran out of money!)" />
+    <textarea readonly class="event-log"></textarea>
+  </div>
+
+<!-- #8 select -->
+<input class="selectbox" value="Select some travel words: passport suitcase sunglasses train tickets sunblock cash credit card reading book extra clothes camera.">
+<p class="styleP" id="log"></p>
+
+<!-- #9 wheel -->
+<section>
+<div class="wheelDiv">Scale me with your mouse wheel.</div>
+</section>
+<!-- #10 keyup -->
+<p class="keyupPara">Focus the IFrame first (e.g. by clicking in it), then try pressing some keys.</p>
+<p id="keyuplog"></p>
+
+<!-- #11 -->
+
+
+  </body>
+  </html>
+
+  <!-- -->
