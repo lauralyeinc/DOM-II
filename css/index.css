@@ -350,6 +350,23 @@ img {
   background: #FFFFFF;
   color: #17A2B8;
 }
+#draggable {
+  width: 200px;
+  height: 20px;
+  text-align: center;
+  background: white;
+}
+.dropzone {
+  width: 200px;
+  height: 40px;
+  background: yellow;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin: 0 auto;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
 .event-log {
   width: 25rem;
   height: 4rem;
@@ -362,5 +379,37 @@ input {
   margin: .5rem;
 }
 .controls {
-  margin: 15rem;
+  padding: 10rem;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.selectbox {
+  margin: 0 auto;
+  justify-content: center;
+  align-content: center;
+  width: 75%;
+  margin: 2rem;
+}
+.styleP {
+  margin: 0 auto;
+  justify-content: center;
+  align-content: center;
+  margin: 2rem;
+  width: 75%;
+  height: 3rem;
+  border: 1px solid black;
+}
+section {
+  margin: 0;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.wheelDiv {
+  width: 105px;
+  height: 105px;
+  background: pink;
+  padding: 5px;
+  margin: 2rem;
 }

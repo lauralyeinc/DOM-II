@@ -56,7 +56,7 @@ document.addEventListener('keydown', numberfive);
 //doesn't work  error 
 
 function numberfive(event) {
-  log.textContent += `${event.code}`;
+  console.log(textContent += `${event.code}`);
 }
 
 //---------------------------
